@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Title>UX/UI Homework 20</Title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="css">
+</head>
+
+<body>
+    <ul class="nav">
+        <img src="images/logo.png">
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><h5>ABOUT</h5></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><h5>SKILLS</h5></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><h5>WORK</h5></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><h5>CONTACT</h5></a>
+        </li>
+    </ul>
+    <!-- Introduction Section -->
+    <div class="jumbotron">
+        <h1 class="display-4">Introduction</h1>
+        <p class="lead">NODE - Friend Finder Community App</p>
+        <hr class="my-4">
+        <p>Group project aimed at creating an app idea to solve a real world problem.</p>            
+        <p>NODE was designed to solve the issues of making friends while ensuring all users were authentic.</p>
+        <img src="images/NODE_App_Group_Project.png">
+      </div>
+    <!-- Research Section -->
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h5>Brainstorming</h5>
+              </button>
+            </h2>
+          </div>      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <img src="images/NODE_App_Research_1.png">  
+              <p>As a group, we brainstormed ideas over day one of the project to determine what problem to help address. Many sticky notes later, we chose the problem of making friends as adults.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h5>Interviews</h5>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                <img src="images/NODE_App_Research_2.png">  
+                <p>The next step was verify our theory with data from interviews and see what possible solutions we could pursue.</p>
+                
+                <p>Each member of the project conducted two user interviews.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h5>Data Analysis & User Insights</h5>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <img src="images/NODE_App_Research_3.png">
+              <p>The interviews revealed that while adults are willing to potentially meet new people, many did not trust online interactions due to the anonymity of the internet.</p>                
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Problem Statement Section -->
+      <div class="jumbotron">
+        <h1 class="display-4">Problem Statement</h1>
+        <p class="lead">Analyzing the data from the user interviews, several points consistent were consistent among all the participants.</p>
+        <p>People wish to find others with similar interests but are concerned about the legitimacy of other users. </p>
+        <p>How might we build a platform where users can meet others with similar interests through their existing social circles?</p>
+        <hr class="my-4">
+        <img src="images/NODE_App_Problem_Statement.png">
+      </div>
+      <!-- Iteration Section -->
+      <div class="media">
+        <img src="images/NODE_App_Iterations.png" class="align-self-start mr-3" alt="NODE App Iterations">
+        <div class="media-body">
+          <h5 class="mt-0">Low to Mid-Fi Prototype</h5>
+          <p>The paper prototype was then quickly upgraded to a lo-fi version for testing. Each group member conducted 2 user tests.</p>
+          <p>The results from that gave valuable feedback and paved the way for the mid-fi prototype.</p>
+        </div>
+      </div>
+      <!-- Prototype Section made with Bootstrap 4's col syste -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <h4>Paper Prototype</h4>
+            <img src="images/NODE_App_Sketch_Prototype.png">
+            <p>Sketch of an idea for NODE's launch screen.</p>
+          </div>
+          <div class="col-lg">
+            <h4>Lo-Fi Prototype</h4>
+            <img src="images/Lo_Fi_Prototype.png">
+            <p>Lo-Fi landing page screen.</p>
+          </div>
+          <div class="col-lg">
+            <h4>Mid-Fi Prototype</h4>
+            <img src="images/Mid_Fi_Prototype.png">
+            <p>Mid-Fi landing screen after several rounds of user testing and iterations.</p>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron">
+        <h1 class="display-4">Conclusion</h1>
+        <p class="lead">At this point, the five weeks for the project were up and we wrapped up the project at the mid-fi stage.</p>
+        <p>This was a very fun project that gave me a good understanding of what goes into the UX of a project as well as what good teamwork accomplishes.</p>
+        <hr class="my-4">
+        <img src="images/NODE_Project_Conclusion.png">
+      </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</html>
